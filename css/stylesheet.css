@@ -3018,7 +3018,7 @@ html.desktop #s_landingSection2 .child-phoneWrap {
   /* line 103, ../scss/_mixins.scss */
   html.mobile #s_landingSection2 .child-phoneWrap, html.tablet #s_landingSection2 .child-phoneWrap {
     position: relative;
-    background: url(../img/intro2.png) center no-repeat;
+    background: url(../img/png/intro2.png) center no-repeat;
     height: 627px;
   }
 }
@@ -6334,7 +6334,7 @@ html.desktop #s_landingSection6 .child-header hr {
   width: 920px;
   height: 500px;
   background-size: 100% 100%;
-  background-image: url(../img/png/landing1-bgIcons.png);
+  background-image: url(../img/png/landing6-bgIcons.png);
   position: absolute;
   left: 0;
   right: 0;
@@ -6344,7 +6344,7 @@ html.desktop #s_landingSection6 .child-header hr {
 @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
   /* line 3518, ../scss/_main.scss */
   #s_landingSection6 .child-bgIcons {
-    background-image: url(../img/png-2x/landing1-bgIcons-2x.png);
+    background-image: url(../img/png-2x/landing6-bgIcons-2x.png);
   }
 }
 /* line 3528, ../scss/_main.scss */
@@ -6368,6 +6368,7 @@ html.desktop #s_landingSection6 .child-bgIcons {
   /* line 103, ../scss/_mixins.scss */
   html.mobile #s_landingSection6 .child-bgIcons, html.tablet #s_landingSection6 .child-bgIcons {
     width: 100%;
+    height: 100%;
   }
 }
 @media only screen and (min-width: 751px) {
@@ -6582,7 +6583,6 @@ html.desktop #s_landingSection6 .child-button {
   html.mobile #s_landingSection6 .child-button, html.tablet #s_landingSection6 .child-button {
     margin: 0;
     width: 43%;
-    float: left;
     text-align: left;
   }
   /* line 3665, ../scss/_main.scss */
